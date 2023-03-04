@@ -26,4 +26,3 @@ The .mpy file is the compiled version of the library for [Circuitpython 7.1.1](h
 * [@rmerriam](https://github.com/rmerriam) for his original CPP code and documentation of the RVR API 
   * [Sphero RVR Wiki reference](https://bitbucket.org/rmerriam/rvr-cpp/wiki/browse/)
   * [Github repository for C++ API] (https://github.com/rmerriam/rvr-cpp-v2)[https://github.com/rmerriam/rvr-cpp-v2]
-  
