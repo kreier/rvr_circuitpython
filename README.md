@@ -1,4 +1,8 @@
 # rvr_circuitpython
+[![GitHub release](https://img.shields.io/github/release/kreier/rvr_circuitpython.svg)](https://GitHub.com/kreier/rvr_circuitpython/releases/)
+[![MIT license](https://img.shields.io/github/license/kreier/rvr_circuitpython)](https://kreier.mit-license.org/)
+
+
 This is a collection of code that can be used to run the RVR using CircuitPython.
 
 My notes learning to use the Sphero RVR API for the Drive to Position functionality are linked here: [Link](https://drive.google.com/file/d/1oYMbidrGnvpz_ruhsh2HalU-BsVFMmpa/view?usp=sharing)
