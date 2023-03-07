@@ -22,6 +22,18 @@ The annotated library has the API that I've given my students to use during clas
 The .mpy file is the compiled version of the library for [Circuitpython 7.1.1](https://circuitpython.org). 
 
 ## API functions
+- RVRDrive.drive(speed,heading)
+- RVRDrive.stop()
+- RVRDrive.setMotors(left,right)
+- RVRDrive.drive_to_position_si(angle, x, y, speed)
+- RVRDrive.reset_yaw()
+- RVRDrive.sensor_start()
+- RVRDrive.get_x()
+- RVRDrive.get_y()
+- RVRDrive.get_heading()
+- RVRDrive.set_all_leds(red, green, blue)
+
+## API documentation
 
 RVRDrive.drive(speed,heading)
 - inputs: speed, heading
