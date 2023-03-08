@@ -11,12 +11,12 @@ My notes learning to use the Sphero RVR API for the Drive to Position functional
 
 We use the following standard pins to communicate with the Sphero RVR with a HCSR04 Ultrasonic Sensor attached to the front:
 
-|                    | blackpill | rp2040 | lilygo ESP32-S2 | Metro M4 express | Metro M0 express**
-|--------------------|:---------:|:------:|:---------------:|:----------------:|:----------------:|
-| UART TX            |     A2    |   GP4  |       IO1       |        D1        |        D2        |
-| UART RX            |     A3    |   GP5  |       IO2       |        D0        |        D3        |
-| Ultrasonic trigger |     B1    |  GP10  |       IO5       |        D11       |        D11       |
-| Ultrasonic echo    |     B0    |  GP11  |       IO4       |        D10       |        D10       |
+|                    | blackpill | rp2040 | lilygo ESP32-S2 | Metro M4 <br>express | Metro M0 <br>express** | rp2040<br>2023 |
+|--------------------|:---------:|:------:|:---------------:|:--------------------:|:----------------------:|:--------------:|
+| UART TX            |     A2    |   GP4  |       IO1       |          D1          |           D2           |      GP4       |
+| UART RX            |     A3    |   GP5  |       IO2       |          D0          |           D3           |      GP5       |
+| Ultrasonic trigger |     B1    |  GP10  |       IO5       |          D11         |           D11          |      GP6       |
+| Ultrasonic echo    |     B0    |  GP11  |       IO4       |          D10         |           D10          |      GP7       |
 
 **Note: The Metro M0 express does not have enough memory to run both the sphero_rvr library and the imported adafruit_hcsr04 library
 
